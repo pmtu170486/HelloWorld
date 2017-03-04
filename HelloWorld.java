@@ -1,5 +1,10 @@
 public class HelloWorld
 {
-	puplic String message = "Hello World"; // Added by Marry
+	puplic static String message = "Hello World"; // Added by Marry
+	
+	public static void main()
+	{
+		System.out.println(message);
+	}
 	
 }
